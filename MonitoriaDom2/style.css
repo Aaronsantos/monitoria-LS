@@ -1,0 +1,113 @@
+*{
+  padding: 0;
+  margin: 0;
+  font-family: monospace;
+}
+
+h1,h2,h3,h4{
+  text-transform: uppercase;
+}
+
+header{
+
+  height: 40vh;
+  font-size: 3em;
+  text-align: center;
+  padding-top: 10vh;
+  box-sizing: border-box;
+  background-color: #e73a3e;
+  color: white;
+  margin-bottom: 40px;
+}
+
+main {
+
+  width: 70%;
+  margin: auto;
+  text-align: center;
+}
+
+main form{
+
+  border-top: 3px solid #e73a3e;
+  border-bottom: 3px solid #e73a3e;
+  margin: 30px auto 50px auto;
+  box-sizing: border-box;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+main form input{
+
+  width: 70%;
+  display: inline-block;
+  height: 2em;
+  margin: 5px;
+  font-size: 1.2em;
+  background-color: rgba(231, 58, 62, 0.3);
+  border: none;
+  color: white;
+}
+
+main form input:focus{
+  background-color: #e73a3e;
+}
+
+main>form>input[type="submit"]{
+
+  width: 50%;
+  background-color: #e73a3e;
+  border: none;
+  color: white;
+  font-weight: bolder;
+}
+
+main>form>input[type="submit"]:hover{
+
+  background-color: #d62a2e;
+  cursor: pointer;
+}
+
+main > h2{
+  color: #e73a3e;
+}
+
+.list{
+    margin-bottom: 50px;
+
+
+}
+
+#memberTab {
+
+    width: 100%;
+}
+
+#memberTab tr {
+  width: 100%;
+  height: 2.5em;
+}
+
+#memberTab thead{
+  font-weight: bolder;
+  background-color: #e73a3e;
+  color white;
+}
+
+#memberTab > thead > tr > th{
+  color: white;
+}
+
+#memberTab tr > td,
+#memberTab th{
+  width: 25%;
+  margin: 0;
+}
+
+.excBtn {
+
+  background-color: #e73a3e;
+  border: none;
+  color: white;
+  padding: 5px;
+}
